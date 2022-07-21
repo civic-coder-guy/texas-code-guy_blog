@@ -1,0 +1,52 @@
+body {
+  background: rgb(36,0,0);
+  background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(63,9,121,1) 50%, rgba(255,103,0,1) 100%);
+}
+
+.welcome, footer {
+  text-align: center;
+  background: rgb(36,0,0);
+  background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(63,9,121,1) 50%, rgba(255,103,0,1) 100%);
+  color: #FFF1D0;
+  border-radius: ;
+  border: 3px solid;
+  margin: 10px;
+ 
+}
+
+a {
+  color:#F0C808;
+}
+
+.references {
+  color: #FFF1d0;
+  text-align: center;
+  border-radius: ;
+  border: 3px solid;
+  margin: 10px;
+}
+
+.card {
+  border: 3px solid;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+
+
+
+
+#flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#flex-container > div {
+  
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+
+  
+}
+
